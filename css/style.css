@@ -461,17 +461,6 @@ body:has(.aside:target) {
   letter-spacing: -0.0938rem;
 }
 
-.choise {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 .choise__bikes {
   gap: 1.5rem;
   -webkit-transition: all 0.3s ease;
@@ -493,6 +482,7 @@ body:has(.aside:target) {
 }
 .choise__img {
   aspect-ratio: 324/256;
+  max-width: 100%;
   padding-bottom: 2rem;
 }
 @media (min-width: 768px) and (max-width: 1045px) {
@@ -524,14 +514,32 @@ body:has(.aside:target) {
   font-weight: 700;
   line-height: 140%; /* 33.6px */
 }
+.choise .swiper {
+  width: 100%;
+  padding-bottom: 3rem;
+}
+.choise .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+}
+.choise .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.choise .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 24px;
+  border-radius: 4px;
+}
 
 @media (max-width: 65.3125em) {
-  .choise {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
   .choise__bikes {
     width: 392px;
     height: 484px;
