@@ -1,8 +1,8 @@
-# 🏛️ The MET — Landing Page
+# 🚴 Bike Landing Page
 
-Responsive landing page for The Metropolitan Museum of Art, built with HTML5 and SCSS. Clean, modern layout with full mobile support and smooth user interactions.
+Modern and responsive landing page for a bike-related product or service. Built with a focus on clean design, usability, and smooth user experience across all devices.
 
-🔗 **Live Demo:** https://pavlolab.github.io/the-met/
+🔗 **Live Demo:** https://pavlolab.github.io/bike/
 
 ---
 
@@ -15,21 +15,21 @@ Responsive landing page for The Metropolitan Museum of Art, built with HTML5 and
 
 ## 🚀 Features
 
-- Fully responsive (320px → 1440px+)
+- Fully responsive design (mobile → desktop)
 - Clean and modern UI
-- Mobile-friendly navigation (CSS burger menu)
+- Well-structured layout with clear sections
 - Smooth hover effects and transitions
-- Semantic and accessible HTML
-- Well-structured and maintainable code
+- Basic interactivity with JavaScript
+- Reusable and organized components
 
 ---
 
 ## 💼 What I Can Do For You
 
-- Convert Figma design to responsive HTML/CSS website  
-- Build modern and clean landing pages  
-- Create fully responsive layouts for all devices  
-- Fix layout and CSS issues  
+- Build responsive landing pages from Figma or design files  
+- Create clean and modern website layouts  
+- Improve UI/UX and responsiveness  
+- Fix HTML, CSS, and layout issues  
 
 ---
 
@@ -38,12 +38,13 @@ Responsive landing page for The Metropolitan Museum of Art, built with HTML5 and
 - HTML5  
 - SCSS / CSS3  
 - Flexbox & CSS Grid  
+- JavaScript  
 
 ---
 
 ## 📌 About This Project
 
-This project demonstrates my ability to take a Figma design and turn it into a pixel-perfect, responsive website with clean and scalable code.
+This project demonstrates my ability to create responsive and visually appealing landing pages with clean structure and attention to user experience.
 
 ---
 
